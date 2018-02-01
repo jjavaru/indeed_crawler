@@ -1,7 +1,11 @@
 #More comments. This was added after I staged this file into the index. Will it get pushed into my local repo?
 #Adding a comment just so I'll have something to add, commit, and push into github
+
+# This comment was actually made from a different box altogether! *codeanywhere*
+
 from indeed import IndeedClient
-from indeed import IndeedClient
+
+
 
 client = IndeedClient(publisher=4201738803816157)
 
