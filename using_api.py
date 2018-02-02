@@ -1,5 +1,5 @@
-#More comments. This was added after I staged this file into the index. Will it get pushed into my local repo?
-#Adding a comment just so I'll have something to add, commit, and push into github
+# More comments. This was added after I staged this file into the index. Will it get pushed into my local repo?
+# Adding a comment just so I'll have something to add, commit, and push into github
 
 from indeed import IndeedClient
 from pprint import pprint
@@ -23,5 +23,9 @@ for result in search_response['results']:
 for val in sorted(job_dict.values()):
     print(val)
 
-##pprint(job_dict)
-##print(search_response['results'])
+# pprint(job_dict)
+# print(search_response['results'])
+print(search_response)
+
+codeanywhere = "This is surprisingly slow, and it doesn't even have a debugger!"
+pprint(codeanywhere)
