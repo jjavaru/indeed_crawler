@@ -1,8 +1,7 @@
 # Making a change to see how this works in github.
 
 # Ignore configurations such as the API key and database credentials
-*config.py
-
+*config.ini
 
 # Default files to ignore taken from https://github.com/github/gitignore/blob/master/Python.gitignore
 
